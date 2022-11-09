@@ -1,0 +1,59 @@
+.form1 {
+	width: 600px;
+	font-size: 12px;
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.form1 .form__item {
+	margin: 10px 0;
+	display: flex;	
+}
+
+.form1 .form__itemText {
+	text-align: right;
+	margin-right: 20px;
+	width: 120px;
+}
+
+.form1 .form__item input, .form2 .form__item select {
+	padding: 5px;
+	border: 1px solid #0d42e0;
+	width: 200px;
+}
+
+.form1 .form__item textarea {
+	width: 430px;
+	height: 100px;
+	padding: 5px;
+	border: 1px solid#0d42e0;
+	resize: none;
+}
+
+.form1 .form__item:nth-child(5) {
+	align-items: center;
+}
+
+.form1 .form__item .capchaTxt {
+	width: 70px;	
+}
+
+.form1 .form__item .capchaImg {
+	border: 1px solid #5377e2;
+	margin: 0 15px;
+}
+
+.form1 .form__item a {
+	color: black;
+}
+
+.form1 .form__footer input {
+	padding: 2px 7px;
+	border: 1px solid #284267;
+	border-radius: 3px;
+	cursor: pointer;
+	margin-left: 140px;
+}
+

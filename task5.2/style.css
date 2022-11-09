@@ -1,0 +1,49 @@
+ * {
+    margin: 0;
+    padding: 0;
+}
+.form2 {
+	width: 500px;
+	margin: auto;
+	background: gainsboro;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+}
+
+.form2 h3 {
+	font-size: 40px;
+	text-align: center;
+	color: black;
+}
+
+.form2 .form__item {
+	display: flex;
+	flex-direction: column;
+	margin: 15px 0;
+}
+
+.form2 .form__itemText {
+	font-size: 13px;
+	margin-bottom: 5px;
+}
+
+.form2 .form__body input {
+	padding: 12px;
+	background: transparent;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.form2 .form__body input:focus {		
+	border: 1px solid #8EB6D1;	
+	outline: none;  
+}
+
+.form2 .form__footer input {
+background: blue;
+padding: 12px 15px;
+border-radius: 5px;
+border: transparent;
+}
+

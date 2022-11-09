@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.form{
+    width: 1200px;
+    margin: auto;
+}
+.form__header{
+    display: flex;
+    height: 30px;
+    background: green;
+    align-items: center;
+}
+.form__header select{
+    background-color: green;
+    border: none;
+    margin: 0px 220px;
+}
+.form__header h3{
+    margin: 0 15px;
+}
+.form__body>div{
+width: 50%;
+}
+.form__body{
+    display: flex;
+}
+.form__item{
+    display: flex;
+    margin: 25px 0 25px 15px;
+    justify-content: space-between;
+}
+.form__item span{
+    color: red;
+}
+.form__item input[type="text"]{
+    width: 250px;
+}
+.form__item .form__textarea{
+    height: 100px;
+}
+.form__item select{
+    width: 250px;
+}
+#wep{
+    width: 125px;
+    margin-right: 125px;
+}
+.form__web{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.form__webitem{
+    display: flex;
+    margin-bottom: 10px;
+   
+    justify-content: space-between;
+}
+.form__webitem input{
+    width: 150px!important;
+}
+.form__futer{
+    height: 40px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form__futer > input{
+    border: none;
+    background: gray;
+    color: aqua;
+    margin: 0 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+.form__list{
+    list-style: none;
+}
+.form_itemT{
+    margin: 23px;
+    margin-bottom: 50px;
+}
